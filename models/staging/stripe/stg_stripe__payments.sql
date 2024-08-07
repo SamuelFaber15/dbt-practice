@@ -1,5 +1,6 @@
 select 
-OrderID AS order_id
+id as payment_id
+,OrderID AS order_id
 ,PaymentMethod as payment_method
 ,status
 ,amount / 100 as amount
